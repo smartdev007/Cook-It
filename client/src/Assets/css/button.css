@@ -1,0 +1,30 @@
+.Submit-btn{
+    width: 320px !important;
+    background: rgba(45, 91, 218, 0.74) !important;
+    border-radius: 5px !important;
+    margin-top: 20px;
+    height: 40px !important;
+    color: white !important;
+}
+.btn-text{
+    font-family: Helvetica !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+@media (max-width :600px) and (min-device-width :300px){
+    .Submit-btn{
+        width: 250px !important;
+        background: rgba(45, 91, 218, 0.74) !important;
+        border-radius: 5px !important;
+        margin-top: 10px;
+        height: 30px !important;
+        color: white !important;
+    }
+    .btn-text{
+        font-family: Helvetica !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 14px !important;
+    }
+}

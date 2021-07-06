@@ -1,0 +1,32 @@
+.inputText{
+    height:40px !important;
+    border-radius:5px !important;
+    background-color:#FCFCFD !important;
+    outline: none !important;
+    border: none !important;
+    font-family: Helvetica !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    border-left: 7px solid orange !important;
+    background: #F29A4A;
+    width: 320px !important;
+}
+@media (max-width :600px) and (min-device-width :300px){
+    .inputText{
+        height:30px !important;
+        border-radius:5px !important;
+        background-color:#FCFCFD !important;
+        outline: none !important;
+        border: none !important;
+        font-family: Helvetica !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 14px !important;
+        border-left: 7px solid orange !important;
+        background: #F29A4A;
+        width: 250px !important;
+        
+    }
+}
